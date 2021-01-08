@@ -39,11 +39,11 @@ class FactorTest < Minitest::Test
     assert_equal 'PlingPlang', Raindropfactor.convert(15)
   end
 
-  def test_21
+  def test_30
     assert_equal 'PlingPlang', Raindropfactor.convert(30)
   end
 
-  def test_25
+  def test_55
     assert_equal 'Plang', Raindropfactor.convert(65)
   end
 
@@ -63,7 +63,7 @@ class FactorTest < Minitest::Test
     assert_equal 'PlingPlangPlong', Raindropfactor.convert(105)
   end
 
-  def test_12121
+  def test_2345
     assert_equal 'PlangPlong', Raindropfactor.convert(2345)
   end
 end
