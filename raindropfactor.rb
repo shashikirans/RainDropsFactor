@@ -14,7 +14,8 @@ class Raindropfactor
 		end
 		res= ""
 		res << 'Pling' if a.include?(3)
-		res = dup.to_s if (!a.include?(3))
+		res << 'Plang' if a.include?(5)
+		res = dup.to_s if (!a.include?(3) && !a.include?(5))
 		return res		
 	end
 end
