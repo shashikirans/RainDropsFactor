@@ -1,5 +1,4 @@
 class Raindropfactor
-	VERSION = 1
     def self.convert(num)
         p num
 		dup = num
