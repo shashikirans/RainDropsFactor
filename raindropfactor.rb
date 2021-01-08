@@ -1,6 +1,5 @@
 class Raindropfactor
     def self.convert(num)
-        p num
 		dup = num
 		a = []
 		while num > 1
